@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Users, TrendingUp, DollarSign, Award, ArrowUpDown, Search } from 'lucide-react';
 
-const App = () => {
+const EmployeeDashboard = () => {
   const [rowData] = useState([
     { id: 1, firstName: "John", lastName: "Smith", email: "john.smith@company.com", department: "Engineering", position: "Senior Developer", salary: 95000, hireDate: "2021-03-15", age: 32, location: "New York", performanceRating: 4.2, projectsCompleted: 12, isActive: true, skills: ["JavaScript", "React", "Node.js"], manager: "Sarah Johnson" },
     { id: 2, firstName: "Emily", lastName: "Davis", email: "emily.davis@company.com", department: "Marketing", position: "Marketing Manager", salary: 78000, hireDate: "2020-07-22", age: 29, location: "Los Angeles", performanceRating: 4.5, projectsCompleted: 8, isActive: true, skills: ["Digital Marketing", "SEO", "Analytics"], manager: "Michael Brown" },
@@ -317,4 +317,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default EmployeeDashboard;
